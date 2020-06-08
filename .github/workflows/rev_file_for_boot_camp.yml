@@ -30,6 +30,6 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./http://mybasicbootcamp.surge.sh/ --token ${{secrets.SERGH_TOKEN}}
+      run: surge ./ mybasicbootcamp.surge.sh --token ${{secrets.SERGH_TOKEN}}
         echo Add other actions to build,
         echo test, and deploy your project.
